@@ -1,0 +1,13 @@
+package one.digitalinnovatione.digitalone.testes
+
+import one.digitalinnovatione.digitalone.Banco
+
+fun main() {
+
+
+    val digiOneman = Banco(nome "DigiOne",12)
+
+    println(digiOneBank.nome)
+    println(digiOneBank.numero)
+
+}
