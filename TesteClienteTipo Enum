@@ -1,0 +1,21 @@
+package one.digitalinnovatione.ditestesgitalone.digionebank.testes
+
+        import one.digitalinnovation.digionebank.ClinteTipo
+
+fun main()
+
+ClienteTipo.values().forEach { elemeto ->
+    println("$elemento.name} = $elemento")
+}
+ClienteTipo.values().forEach {
+    it.ClienteTipo
+    println("${it.name} =${it.descricao}")
+}
+ val pf = ClienteTipo.PF
+println("${pf.name} = ${pf.descricao} ")
+
+val pj = ClienteTipo.PJ
+println("${pj.name} = ${pj.descricao}")
+
+
+}
