@@ -6,5 +6,5 @@ fun main(args: Array<String>) {
     val b = input.nextInt()
 
     println ("SOMA = "+ (a+b))
-    
+
 }
