@@ -1,5 +1,5 @@
 package onedigitalinnovation.digioneBank.Testes
-
+import onedigitalinnovation.digioneBank.Analista
 import onedigitalinnovation.digioneBank.Funcionario
 import onedigitalinnovation.digioneBank.Pessoa
 
@@ -12,6 +12,7 @@ println(Joao.nome)
 println(Joao.cpf)
 println(Joao.salario)
 }
+
 fun imprimeRelatorio(funcionario: Funcionario) = println(funcionario.toString())
 
 }

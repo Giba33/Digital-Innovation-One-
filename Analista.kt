@@ -1,4 +1,5 @@
 package onedigitalinnovation.digioneBank
+
 class Analista(
     nome: String,
     cpf: String,
